@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiPageflipModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiPageflipModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiPageflipModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiPageflipModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TiPageflipModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiPageflipModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiPageflipModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiPageflipModuleAssets.m */; };
+		A89E8AD613E1A72500C28E40 /* FadeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E8ACF13E1A72500C28E40 /* FadeTransition.h */; };
+		A89E8AD713E1A72500C28E40 /* FadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E8AD013E1A72500C28E40 /* FadeTransition.m */; };
+		A89E8AD813E1A72500C28E40 /* FlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E8AD113E1A72500C28E40 /* FlipTransition.h */; };
+		A89E8AD913E1A72500C28E40 /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E8AD213E1A72500C28E40 /* FlipTransition.m */; };
+		A89E8ADA13E1A72500C28E40 /* SlideTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E8AD313E1A72500C28E40 /* SlideTransition.h */; };
+		A89E8ADB13E1A72500C28E40 /* SlideTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E8AD413E1A72500C28E40 /* SlideTransition.m */; };
+		A89E8ADC13E1A72500C28E40 /* Transition.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E8AD513E1A72500C28E40 /* Transition.h */; };
+		A8BBFEFA13D875C800AC14AA /* PageFlipper.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BBFEF213D875C700AC14AA /* PageFlipper.h */; };
+		A8BBFEFB13D875C800AC14AA /* PageFlipper.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBFEF313D875C700AC14AA /* PageFlipper.m */; };
+		A8BBFEFE13D875C800AC14AA /* TiPageflipView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BBFEF613D875C700AC14AA /* TiPageflipView.h */; };
+		A8BBFEFF13D875C800AC14AA /* TiPageflipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBFEF713D875C700AC14AA /* TiPageflipView.m */; };
+		A8BBFF0013D875C800AC14AA /* TiPageflipViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BBFEF813D875C700AC14AA /* TiPageflipViewProxy.h */; };
+		A8BBFF0113D875C800AC14AA /* TiPageflipViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBFEF913D875C700AC14AA /* TiPageflipViewProxy.m */; };
+		A8DD348213D9F9B6001B90B3 /* PDFRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DD347D13D9F9B6001B90B3 /* PDFRenderer.h */; };
+		A8DD348313D9F9B6001B90B3 /* PDFRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DD347E13D9F9B6001B90B3 /* PDFRenderer.m */; };
+		A8DD348C13D9F9C2001B90B3 /* PDFSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DD348713D9F9C2001B90B3 /* PDFSource.h */; };
+		A8DD348D13D9F9C2001B90B3 /* PDFSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DD348813D9F9C2001B90B3 /* PDFSource.m */; };
+		A8DD348E13D9F9C2001B90B3 /* Source.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DD348913D9F9C2001B90B3 /* Source.h */; };
+		A8DD348F13D9F9C2001B90B3 /* ViewSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DD348A13D9F9C2001B90B3 /* ViewSource.h */; };
+		A8DD349013D9F9C2001B90B3 /* ViewSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DD348B13D9F9C2001B90B3 /* ViewSource.m */; };
+		A8E0DBC914898348007C6E84 /* AdvancedPageFlipperPage.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E0DBC714898348007C6E84 /* AdvancedPageFlipperPage.h */; };
+		A8E0DBCA14898348007C6E84 /* AdvancedPageFlipperPage.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E0DBC814898348007C6E84 /* AdvancedPageFlipperPage.m */; };
+		AA747D9F0F9514B9006C5449 /* TiPageflip_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiPageflip_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = pageflip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiPageflipModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiPageflipModule.h; path = Classes/TiPageflipModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiPageflipModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiPageflipModule.m; path = Classes/TiPageflipModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiPageflipModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiPageflipModuleAssets.h; path = Classes/TiPageflipModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiPageflipModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiPageflipModuleAssets.m; path = Classes/TiPageflipModuleAssets.m; sourceTree = "<group>"; };
+		A89E8ACF13E1A72500C28E40 /* FadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FadeTransition.h; path = Classes/FadeTransition.h; sourceTree = "<group>"; };
+		A89E8AD013E1A72500C28E40 /* FadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FadeTransition.m; path = Classes/FadeTransition.m; sourceTree = "<group>"; };
+		A89E8AD113E1A72500C28E40 /* FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipTransition.h; path = Classes/FlipTransition.h; sourceTree = "<group>"; };
+		A89E8AD213E1A72500C28E40 /* FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipTransition.m; path = Classes/FlipTransition.m; sourceTree = "<group>"; };
+		A89E8AD313E1A72500C28E40 /* SlideTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideTransition.h; path = Classes/SlideTransition.h; sourceTree = "<group>"; };
+		A89E8AD413E1A72500C28E40 /* SlideTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideTransition.m; path = Classes/SlideTransition.m; sourceTree = "<group>"; };
+		A89E8AD513E1A72500C28E40 /* Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transition.h; path = Classes/Transition.h; sourceTree = "<group>"; };
+		A8BBFEF013D875AA00AC14AA /* manifest */ = {isa = PBXFileReference; lastKnownFileType = text; path = manifest; sourceTree = "<group>"; };
+		A8BBFEF113D875AA00AC14AA /* module.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = module.xcconfig; sourceTree = "<group>"; };
+		A8BBFEF213D875C700AC14AA /* PageFlipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageFlipper.h; path = Classes/PageFlipper.h; sourceTree = "<group>"; };
+		A8BBFEF313D875C700AC14AA /* PageFlipper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageFlipper.m; path = Classes/PageFlipper.m; sourceTree = "<group>"; };
+		A8BBFEF613D875C700AC14AA /* TiPageflipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiPageflipView.h; path = Classes/TiPageflipView.h; sourceTree = "<group>"; };
+		A8BBFEF713D875C700AC14AA /* TiPageflipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiPageflipView.m; path = Classes/TiPageflipView.m; sourceTree = "<group>"; };
+		A8BBFEF813D875C700AC14AA /* TiPageflipViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiPageflipViewProxy.h; path = Classes/TiPageflipViewProxy.h; sourceTree = "<group>"; };
+		A8BBFEF913D875C700AC14AA /* TiPageflipViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiPageflipViewProxy.m; path = Classes/TiPageflipViewProxy.m; sourceTree = "<group>"; };
+		A8BBFF0313D875D500AC14AA /* index.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.md; sourceTree = "<group>"; };
+		A8BBFF0413D875D500AC14AA /* view.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = view.md; sourceTree = "<group>"; };
+		A8BBFF0613D875D500AC14AA /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		A8BBFF0713D875D500AC14AA /* pdf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = pdf.js; sourceTree = "<group>"; };
+		A8BBFF0813D875D500AC14AA /* views.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = views.js; sourceTree = "<group>"; };
+		A8DD347D13D9F9B6001B90B3 /* PDFRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFRenderer.h; path = Classes/PDFRenderer.h; sourceTree = "<group>"; };
+		A8DD347E13D9F9B6001B90B3 /* PDFRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFRenderer.m; path = Classes/PDFRenderer.m; sourceTree = "<group>"; };
+		A8DD348713D9F9C2001B90B3 /* PDFSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFSource.h; path = Classes/PDFSource.h; sourceTree = "<group>"; };
+		A8DD348813D9F9C2001B90B3 /* PDFSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFSource.m; path = Classes/PDFSource.m; sourceTree = "<group>"; };
+		A8DD348913D9F9C2001B90B3 /* Source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Source.h; path = Classes/Source.h; sourceTree = "<group>"; };
+		A8DD348A13D9F9C2001B90B3 /* ViewSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewSource.h; path = Classes/ViewSource.h; sourceTree = "<group>"; };
+		A8DD348B13D9F9C2001B90B3 /* ViewSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewSource.m; path = Classes/ViewSource.m; sourceTree = "<group>"; };
+		A8E0DBC714898348007C6E84 /* AdvancedPageFlipperPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdvancedPageFlipperPage.h; path = Classes/AdvancedPageFlipperPage.h; sourceTree = "<group>"; };
+		A8E0DBC814898348007C6E84 /* AdvancedPageFlipperPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdvancedPageFlipperPage.m; path = Classes/AdvancedPageFlipperPage.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TiPageflip_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiPageflip_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTiPageflip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiPageflip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTiPageflip.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* pageflip */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				A8BBFF0213D875D500AC14AA /* documentation */,
+				A8BBFF0513D875D500AC14AA /* example */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = pageflip;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8E0DBC1148978C1007C6E84 /* Flippers */,
+				A8E6C46713DE21A8007C6EAE /* Transitions */,
+				A8DD347213D9F10E001B90B3 /* Sources */,
+				A8DD346B13D9ED26001B90B3 /* Renderers */,
+				A8BBFEF613D875C700AC14AA /* TiPageflipView.h */,
+				A8BBFEF713D875C700AC14AA /* TiPageflipView.m */,
+				A8BBFEF813D875C700AC14AA /* TiPageflipViewProxy.h */,
+				A8BBFEF913D875C700AC14AA /* TiPageflipViewProxy.m */,
+				24DE9E0F11C5FE74003F90F6 /* TiPageflipModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiPageflipModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiPageflipModule.h */,
+				24DD6CF81134B3F500162E58 /* TiPageflipModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiPageflip_Prefix.pch */,
+				A8BBFEF013D875AA00AC14AA /* manifest */,
+				A8BBFEF113D875AA00AC14AA /* module.xcconfig */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A8BBFF0213D875D500AC14AA /* documentation */ = {
+			isa = PBXGroup;
+			children = (
+				A8BBFF0313D875D500AC14AA /* index.md */,
+				A8BBFF0413D875D500AC14AA /* view.md */,
+			);
+			path = documentation;
+			sourceTree = "<group>";
+		};
+		A8BBFF0513D875D500AC14AA /* example */ = {
+			isa = PBXGroup;
+			children = (
+				A8BBFF0613D875D500AC14AA /* app.js */,
+				A8BBFF0713D875D500AC14AA /* pdf.js */,
+				A8BBFF0813D875D500AC14AA /* views.js */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		A8DD346B13D9ED26001B90B3 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				A8DD347D13D9F9B6001B90B3 /* PDFRenderer.h */,
+				A8DD347E13D9F9B6001B90B3 /* PDFRenderer.m */,
+			);
+			name = Renderers;
+			sourceTree = "<group>";
+		};
+		A8DD347213D9F10E001B90B3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A8DD348713D9F9C2001B90B3 /* PDFSource.h */,
+				A8DD348813D9F9C2001B90B3 /* PDFSource.m */,
+				A8DD348913D9F9C2001B90B3 /* Source.h */,
+				A8DD348A13D9F9C2001B90B3 /* ViewSource.h */,
+				A8DD348B13D9F9C2001B90B3 /* ViewSource.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		A8E0DBC1148978C1007C6E84 /* Flippers */ = {
+			isa = PBXGroup;
+			children = (
+				A8BBFEF213D875C700AC14AA /* PageFlipper.h */,
+				A8BBFEF313D875C700AC14AA /* PageFlipper.m */,
+				A8E0DBC714898348007C6E84 /* AdvancedPageFlipperPage.h */,
+				A8E0DBC814898348007C6E84 /* AdvancedPageFlipperPage.m */,
+			);
+			name = Flippers;
+			sourceTree = "<group>";
+		};
+		A8E6C46713DE21A8007C6EAE /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				A89E8ACF13E1A72500C28E40 /* FadeTransition.h */,
+				A89E8AD013E1A72500C28E40 /* FadeTransition.m */,
+				A89E8AD113E1A72500C28E40 /* FlipTransition.h */,
+				A89E8AD213E1A72500C28E40 /* FlipTransition.m */,
+				A89E8AD313E1A72500C28E40 /* SlideTransition.h */,
+				A89E8AD413E1A72500C28E40 /* SlideTransition.m */,
+				A89E8AD513E1A72500C28E40 /* Transition.h */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* TiPageflip_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* TiPageflipModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiPageflipModuleAssets.h in Headers */,
+				A8BBFEFA13D875C800AC14AA /* PageFlipper.h in Headers */,
+				A8BBFEFE13D875C800AC14AA /* TiPageflipView.h in Headers */,
+				A8BBFF0013D875C800AC14AA /* TiPageflipViewProxy.h in Headers */,
+				A8DD348213D9F9B6001B90B3 /* PDFRenderer.h in Headers */,
+				A8DD348C13D9F9C2001B90B3 /* PDFSource.h in Headers */,
+				A8DD348E13D9F9C2001B90B3 /* Source.h in Headers */,
+				A8DD348F13D9F9C2001B90B3 /* ViewSource.h in Headers */,
+				A89E8AD613E1A72500C28E40 /* FadeTransition.h in Headers */,
+				A89E8AD813E1A72500C28E40 /* FlipTransition.h in Headers */,
+				A89E8ADA13E1A72500C28E40 /* SlideTransition.h in Headers */,
+				A89E8ADC13E1A72500C28E40 /* Transition.h in Headers */,
+				A8E0DBC914898348007C6E84 /* AdvancedPageFlipperPage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* pageflip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "pageflip" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pageflip;
+			productName = pageflip;
+			productReference = D2AAC07E0554694100DB518D /* libTiPageflip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "pageflip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* pageflip */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* pageflip */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* TiPageflipModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiPageflipModuleAssets.m in Sources */,
+				A8BBFEFB13D875C800AC14AA /* PageFlipper.m in Sources */,
+				A8BBFEFF13D875C800AC14AA /* TiPageflipView.m in Sources */,
+				A8BBFF0113D875C800AC14AA /* TiPageflipViewProxy.m in Sources */,
+				A8DD348313D9F9B6001B90B3 /* PDFRenderer.m in Sources */,
+				A8DD348D13D9F9C2001B90B3 /* PDFSource.m in Sources */,
+				A8DD349013D9F9C2001B90B3 /* ViewSource.m in Sources */,
+				A89E8AD713E1A72500C28E40 /* FadeTransition.m in Sources */,
+				A89E8AD913E1A72500C28E40 /* FlipTransition.m in Sources */,
+				A89E8ADB13E1A72500C28E40 /* SlideTransition.m in Sources */,
+				A8E0DBCA14898348007C6E84 /* AdvancedPageFlipperPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* pageflip */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiPageflip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiPageflip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiPageflip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/TiPageflip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiPageflip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiPageflip;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiPageflip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiPageflip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiPageflip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/TiPageflip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiPageflip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiPageflip;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "pageflip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "pageflip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
