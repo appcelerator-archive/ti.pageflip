@@ -1,6 +1,6 @@
 # Change Log
 <pre>
-v1.8.3  MOD-1118: Building with 2.1.3.GA and open sourcing
+v1.8.3  MOD-1118: Building with 3.2.2.GA and open sourcing
 	
 v1.8.2  MOD-688: Fixed issue with 1st page not displaying when pageflip controller is a child of another controller
 
